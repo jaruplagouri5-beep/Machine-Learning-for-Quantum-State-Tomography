@@ -1,0 +1,76 @@
+$date
+	Fri Jan 16 21:08:14 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 20 ! output_sum [19:0] $end
+$var reg 1 " clk $end
+$var reg 8 # input_val [7:0] $end
+$var reg 1 $ rst $end
+$var reg 8 % weight [7:0] $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 8 & input_val [7:0] $end
+$var wire 1 $ rst $end
+$var wire 8 ' weight [7:0] $end
+$var reg 20 ( accumulated_sum [19:0] $end
+$var reg 16 ) product [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+1$
+b0 #
+0"
+b0 !
+$end
+#5000
+1"
+#10000
+0"
+b10 #
+b10 &
+b1010 %
+b1010 '
+0$
+#15000
+b10100 )
+1"
+#20000
+0"
+b11 #
+b11 &
+b11111011 %
+b11111011 '
+#25000
+b10100 !
+b10100 (
+b1111111111110001 )
+1"
+#30000
+0"
+b100 #
+b100 &
+b10100 %
+b10100 '
+#35000
+b101 !
+b101 (
+b1010000 )
+1"
+#40000
+0"
